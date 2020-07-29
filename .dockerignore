@@ -1,0 +1,7 @@
+dlogger*
+.git
+node_modules
+.idea/**
+coverage/**/*
+*.db
+angular/**/*
