@@ -3,7 +3,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/bb775144336d4a1df5d1/maintainability)](https://codeclimate.com/github/mchirico/mchirico/maintainability)
 
 ![Angular](https://github.com/mchirico/mchirico/workflows/Angular/badge.svg)
-![Deploy](https://github.com/mchirico/mchirico/workflows/Deploy/badge.svg)
 ![CI](https://github.com/mchirico/mchirico/workflows/CI/badge.svg)
 
 
