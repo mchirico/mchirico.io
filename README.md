@@ -1,11 +1,13 @@
-![CI](https://github.com/mchirico/ts-express/workflows/CI/badge.svg)
-![Angular](https://github.com/mchirico/ts-express/workflows/Angular/badge.svg)
-[![codecov](https://codecov.io/gh/mchirico/ts-express/branch/master/graph/badge.svg)](https://codecov.io/gh/mchirico/ts-express)
-[![Maintainability](https://api.codeclimate.com/v1/badges/400a383ea8380adafa63/maintainability)](https://codeclimate.com/github/mchirico/ts-express/maintainability)
-[![codebeat badge](https://codebeat.co/badges/0796b697-a331-4b66-b493-a455bc26114e)](https://codebeat.co/projects/github-com-mchirico-ts-express-master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/04745c578b4c423584d473ef74758ad7)](https://app.codacy.com/manual/mchirico/ts-express?utm_source=github.com&utm_medium=referral&utm_content=mchirico/ts-express&utm_campaign=Badge_Grade_Dashboard)
+[![codebeat badge](https://codebeat.co/badges/423a7797-60b7-4d87-97ed-d908175be5e1)](https://codebeat.co/projects/github-com-mchirico-mchirico-master)
+[![codecov](https://codecov.io/gh/mchirico/mchirico/branch/master/graph/badge.svg)](https://codecov.io/gh/mchirico/mchirico)
+[![Maintainability](https://api.codeclimate.com/v1/badges/bb775144336d4a1df5d1/maintainability)](https://codeclimate.com/github/mchirico/mchirico/maintainability)
 
-# ts-express
+![Angular](https://github.com/mchirico/mchirico/workflows/Angular/badge.svg)
+![Deploy](https://github.com/mchirico/mchirico/workflows/Deploy/badge.svg)
+![CI](https://github.com/mchirico/mchirico/workflows/CI/badge.svg)
+
+
+# mchirico
 
 Typescript project:
 
@@ -13,10 +15,10 @@ Typescript project:
 - Angular front-end 
 - Firebase 
 
-Live demo [tsexpress.cwxstat.io](https://tsexpress.cwxstat.io/) Make sure
+Live demo [tsexpress.cwxstat.io](https://mchirico.io/) Make sure
 you install all missing packages.
 
-StackBlitz [ts-express](https://stackblitz.com/github/mchirico/ts-express/tree/master/angular)
+StackBlitz [ts-express](https://stackblitz.com/github/mchirico/mchirico/tree/master/angular)
 
 
 This is meant to be a very simple starter project, for quickly
