@@ -79,7 +79,7 @@ jobs:
     # BigQuery
     - name: Working with BigQuery
       run: |
-       txt="Angular ts-express"
+       txt="Angular mchirico"
        bq query --nouse_legacy_sql 'CREATE TABLE IF NOT EXISTS  `septapig.github.log` (msg string, timeEnter timestamp);'
        bq query --nouse_legacy_sql  --parameter=MSG:STRING:"${txt}"  'insert into `septapig.github.log` (msg,timeEnter) values (@MSG,CURRENT_TIMESTAMP())'
 

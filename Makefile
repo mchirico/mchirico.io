@@ -1,5 +1,5 @@
 PROJECT = cwxstat-23
-NAME = tsexpress
+NAME = mchirico
 TAG = dev
 TEST = test
 QT = qt
