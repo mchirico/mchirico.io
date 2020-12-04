@@ -22,27 +22,27 @@ describe("SQLite", function () {
       }
       stmt.finalize();
 
-      db.each("SELECT count(*) as total FROM lorem", function (
-        err: string,
-        row: { total: string }
-      ) {
-        if (err !== null) {
-          console.log(row.total + ": " + err);
-        } else {
-          console.log("total count: " + row.total);
+      db.each(
+        "SELECT count(*) as total FROM lorem",
+        function (err: string, row: { total: string }) {
+          if (err !== null) {
+            console.log(row.total + ": " + err);
+          } else {
+            console.log("total count: " + row.total);
+          }
         }
-      });
+      );
 
-      db.each("SELECT rowid AS id, info FROM lorem limit 3", function (
-        err: string,
-        row: { id: string; info: string }
-      ) {
-        if (err !== null) {
-          console.log(row.id + ": " + row.info + " " + err);
-        } else {
-          console.log(row.id + ": " + row.info + " ");
+      db.each(
+        "SELECT rowid AS id, info FROM lorem limit 3",
+        function (err: string, row: { id: string; info: string }) {
+          if (err !== null) {
+            console.log(row.id + ": " + row.info + " " + err);
+          } else {
+            console.log(row.id + ": " + row.info + " ");
+          }
         }
-      }).close(() => {
+      ).close(() => {
         expect("test").to.contain("test");
       });
     });
