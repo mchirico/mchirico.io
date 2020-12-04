@@ -10,6 +10,6 @@ dlogger*
 /lib
 .
 .idea/**
-credentials/**
+credentials/
 
 

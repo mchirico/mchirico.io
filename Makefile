@@ -25,6 +25,12 @@ docker-build:
 	(cd angular && ./updateStatic.sh)
 	docker build --build-arg var_firebase="${FIREBASE_TOKEN}" -t gcr.io/$(PROJECT)/$(NAME):$(TAG) -f Dockerfile .
 
+.PHONY: docker-build2
+docker-build2:
+	rm -rf static
+	(cd angular && ./updateStatic.sh)
+	docker build --build-arg var_firebase="${FIREBASE_TOKEN}" -t gcr.io/mchirico/mchiricoio:$(TAG) -f Dockerfile .
+
 .PHONY: start
 start:
 	rm -rf static
